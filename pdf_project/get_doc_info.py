@@ -30,15 +30,16 @@ def text_search(path):
     print('text_search called')
     with open(path, 'rb') as f:
         pdf = PdfFileReader(f)
-        String = '''WITH THE HINDUS'''
+        String = '''ANCIENT INDIAN COMMERCE'''.upper()
         print('String after upper() is : {} '.format(String))
 
-        for i in range(4400, 4795):
+        for i in range(1, 100):
             PageObj = pdf.getPage(i)
             Text = PageObj.extractText()
             ReSearch = re.search(String, Text)
             if ReSearch is not None:
                 print(ReSearch, "At Page No : {}".format(i))
+                break
             
 if __name__ == '__main__':
     path = 'books.pdf'
