@@ -19,7 +19,7 @@ def text_extractor(path):
         pdf = PdfFileReader(f)
         
         # get the first page
-        page = pdf.getPage(4793)
+        page = pdf.getPage(576)
         print('Page Type : {} '.format(str(type(page))))
 
         text = page.extractText()
@@ -30,10 +30,10 @@ def text_search(path):
     print('text_search called')
     with open(path, 'rb') as f:
         pdf = PdfFileReader(f)
-        String = '''ANCIENT INDIAN COMMERCE'''.upper()
+        String = '''BUDDHA OR KARL MARX'''.upper()
         print('String after upper() is : {} '.format(String))
 
-        for i in range(1, 100):
+        for i in range(500, 1000):
             PageObj = pdf.getPage(i)
             Text = PageObj.extractText()
             ReSearch = re.search(String, Text)
