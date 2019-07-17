@@ -13,7 +13,7 @@ def PDFsplit(pdf, splits, title):
 
         # starting index of the last slice
         end = splits[1]
-
+        
         print('Title is : {}, start : {}, end : {}'.format(title, start, end))
         
         pdfWriter = PyPDF2.PdfFileWriter()

@@ -1,0 +1,19 @@
+Displaying 18 of 18 matches:
+This is a book about Natural Language Processing . By `` natural languag
+anguage Processing . By `` natural language '' we mean a language that is used
+y `` natural language '' we mean a language that is used for everyday communic
+licit rules . We will take Natural Language Processing � or NLP for short � in
+f computer manipulation of natural language . At one extreme , it could be as 
+ted access to stored information , language processing has come to play a cent
+e textbook for a course on natural language processing or computational lingui
+is based on the Python programming language together with an open source libra
+ source library called the Natural Language Toolkit ( NLTK ) . NLTK includes e
+s are deployed in a variety of new language technologies . For this reason it 
+rite programs that analyze written language , regardless of previous programmi
+is book to get immersed in natural language processing . All relevant Python f
+ty for this application area . The language index will help you locate relevan
+mples and dig into the interesting language analysis material that starts in 1
+ text using Python and the Natural Language Toolkit . To learn about advanced 
+an help you manipulate and analyze language data , and how to write these prog
+s are used to describe and analyse language How data structures and algorithms
+and algorithms are used in NLP How language data is stored in standard formats
